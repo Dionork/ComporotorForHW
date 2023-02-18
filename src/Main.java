@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        String text = "Vasya Pupkin The";
         List<Person> person = new ArrayList<>();
         person.add(new Person("Василий", "Пупейший", 23));
         person.add(new Person("Бублик", "Супер знатный", 15));
